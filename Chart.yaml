@@ -2,9 +2,9 @@ apiVersion: v2
 name: spegg-backend-chart
 description: A Helm chart for Spegg backend
 version: 2.0.0-alpha1
-#dependencies:
-#  - name: mongodb
-#    repository: https://charts.bitnami.com/bitnami
-#    tags:
-#      - bitnami-mongodb
-#    version: 11.x.x
+dependencies:
+  - name: mongodb
+    repository: https://charts.bitnami.com/bitnami
+    tags:
+      - bitnami-mongodb
+    version: 11.x.x
